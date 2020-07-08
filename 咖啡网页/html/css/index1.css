@@ -1,0 +1,191 @@
+/* css reset */
+*{margin: 0; padding: 0;}
+ul,li,ol{list-style: none;}
+h1,h2,h3,h4{color: black;}
+img{display: block;}
+a{text-decoration: none;}
+a{color: black;}
+h1,h2,h3,h4{font-size: 18px;}
+body{font-size: 18px;}
+
+/* 主要的 master.css  */
+.l{float: left;}
+.r{float: right;}
+.clear:after{ content: ""; display: block; clear: both;}
+.container{width: 1200px; margin: 0 auto; position: relative;}
+.container-fluid{ position: relative;}
+
+/* 页头：header   */
+#header{height:80px; display: flex;}
+#header .header-list{height: 100%;}
+#header .header-list ul{height: 100%; display: flex;}
+#header .header-list ul li{height: 100%;}
+#header .header-list ul li img{}
+#header .header-lef{height: 100%;margin-bottom: 10px;}
+#header .header-lef ul{height: 100%;display: flex; margin-left: 280px;line-height: 80px;}
+#header .header-lef ul li{height: 76px; width: 124px; text-align: center;}
+#header .header-lef .bian:hover{border-bottom: #866961 4px solid; color: #866961;}
+
+ /* css tu  */
+ /* #tu li{width: 1920px;margin: 0 auto} */
+
+ #lunbo {
+    width: 1920px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    overflow: hidden;
+    margin-left: -951px;
+
+}
+
+#lunbo .lunbo-ul {
+    width:400%;
+    overflow: hidden;
+    transition: all 2s;
+
+}
+
+
+#lunbo .lunbo-ul img {
+    width: 1920px;
+    height: 500px;
+    float: left;
+   
+
+}
+
+#lunbo button {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    background: blanchedalmond;
+}
+
+#lunbo:hover button {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+#lunbo .jjj {
+    left: 0;
+    font-size: 30px;
+
+}
+
+#lunbo .jj {
+    right: 20px;
+    font-size: 30px;
+
+}
+
+#lunbo ul {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    margin-left: -40px;
+
+}
+
+#lunbo ul li {
+    width: 25px;
+    height: 25px;
+    background: white;
+    border-radius: 50%;
+    float: left;
+    margin-left: 2px;
+    cursor: pointer;
+
+}
+
+#lunbo ul li.ave {
+    background: yellowgreen;
+}
+
+ /* css server  */
+#server{height: 790px; }
+#server .server-list{text-align: center; height: 130px;padding-top: 48px;}
+#server .server-list h2{font-size: 22px; }
+#server .server-list p{font-size: 14px;position: absolute;left:560px;top: 82px;}
+#server .server-list ul img{font-size: 14px;bottom:20px;}
+#server .server-list ul .tu1{margin-left: 470px;}
+#server .server-list ul .tu2{margin-left:585px;}
+#server .server-aut{display: flex;}
+#server .server-aut ul{}
+#server .server-aut ul img{}
+#server .server-aut .server-p{margin-left: 30px;margin-top: 15px;}
+#server .server-aut .server-p .di{width: 38px; border-bottom: 2px solid black;margin-top: 58px;}
+#server .server-aut .server-p h2{font-size: 22px; font-weight: 500;}
+#server .server-aut .server-p p{line-height: 36px;margin-top: 23px;text-indent: 2em;font-size: 12px;}
+
+/* css guang */
+#guang{}
+#guang ul{}
+#guang ul li{width: 1920px;margin: 0 auto}
+
+/* css product */
+#product{height: 664px; }
+#product .product-list{text-align: center; height: 130px;padding-top: 48px;}
+#product .product-list h2{font-size: 22px; }
+#product .product-list p{font-size: 14px;position: absolute;left:560px;top: 82px;}
+#product .product-list ul img{font-size: 14px;bottom:20px;}
+#product .product-list ul .tu1{margin-left: 470px;}
+#product .product-list ul .tu2{margin-left:585px;}
+#product .product-st{text-align: center;}
+#product .product-st ul{display: flex;}
+#product .product-st ul li:hover .ming{margin-right: 110px;opacity: 0.8;}
+#product .product-st ul li:nth-child(3){margin-left: 0px;}
+#product .product-st ul li .ming{ position: absolute; top:178px;margin-left: 2px; opacity: 0;}
+#product .product-st ul li h2{font-size: 24px;margin-top: 18px;margin-right: 66px;}
+#product .product-st ul li h1{width: 34px; border-bottom: 1px solid black;  margin-left: 149px;margin-top: 8px;}
+#product .product-st ul li p{margin-top: 4px; font-size: 14px;line-height: 22px; width: 312px;margin-right: 110px;height: 140px;}
+
+/* css main */
+#main{}
+#main .main-list{text-align: center; height: 130px;padding-top: 48px;}
+#main .main-list h2{font-size: 22px; }
+#main .main-list p{font-size: 10px;position: absolute;left:560px;top: 82px;}
+#main .main-list ul img{font-size: 14px;bottom:20px;}
+#main .main-list ul .tu1{margin-left: 470px;}
+#main .main-list ul .tu2{margin-left:585px;}
+#main .main-ul{text-align: center;}
+#main .main-ul ul{display: flex;justify-content: space-around;}
+#main .main-ul ul li{ width: 246px;}
+#main .main-ul ul li{border: 1px solid black; }
+#main .main-ul ul img{width: 100%; }
+#main .main-ul .li-top{ display: none;}
+#main .main-ul .main-ulli:hover .li-top{ display: none;}
+#main .main-ul .main-ulli:hover .main-li{ display: block;}
+ #main .main-ul ul .main-ulli h2{ margin-top: 10px; font-size: 22px;} 
+ #main .main-ul ul .main-ulli h1{ width: 30px; border-bottom: 1px solid black; margin-left: 118px;margin-top: 10px;} 
+ #main .main-ul ul .main-ulli p{ width: 210px;margin-left: 28px; font-size: 12px;line-height: 24px;height: 64px;margin-top: 5px;} 
+ #main .main-ul ul .main-ulli .main-li h3{margin-top: 28px; font-size: 20px; font-weight: 500;} 
+ #main .main-ul ul .main-ulli .main-li h4{margin-top: 13px; font-size: 14px;font-weight: 500;} 
+ #main .main-ul ul li h2{margin-top: 28px; font-size: 20px; font-weight: 500;}
+ #main .main-ul ul li p{margin-top: 13px; font-size: 14px;font-weight: 500;}
+
+/* css  news */
+#news{}
+#news .news-list{text-align: center; height: 120px;padding-top: 48px;}
+#news .news-list h2{font-size: 22px; }
+#news .news-list p{font-size: 10px;position: absolute;left:560px;top: 82px;}
+#news .news-list ul img{font-size: 14px;bottom:20px;}
+#news .news-list ul .tu1{margin-left: 470px;}
+#news .news-list ul .tu2{margin-left:585px;}
+#news .news-ulli{} 
+#news .news-ulli img{} 
+#news .news-ulli .ditu{ width: 849px;}
+#news .news-ulli .news-ul{}
+#news .news-ulli .news-ul .news-li{display: flex;margin-top: 16px; }
+#news .news-ulli .news-ul .news-li img{margin-left: 58px;}
+#news .news-ulli .news-wen{margin-left: 14px; line-height: 26px;}
+#news .news-ulli .news-wen h2{font-size: 22px;}
+#news .news-ulli .news-wen p{font-size: 14px;}
+#news .news-ulli .news-wen h3{font-size: 16px;font-weight: 500;}
+
+ /* css di  */
+ #di{background: #866961; height: 82px;margin-top: 52px;}
+ #di .di-list{display: flex;margin-left: 28px;}
+ #di .di-list p{font-size: 14px;color: white;margin-top: 38px;}
+ #di .di-list img{border: 1px #866961 solid;margin-left: 180px;}

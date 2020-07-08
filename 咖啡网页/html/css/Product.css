@@ -1,0 +1,32 @@
+/* css reset */
+*{margin: 0; padding: 0;}
+ul,li,ol{list-style: none;}
+h1,h2,h3,h4{color: black;}
+img{display: block;}
+a{text-decoration: none;}
+a{color: black;}
+h1,h2,h3,h4{font-size: 18px;}
+body{font-size: 18px;}
+
+/* 主要的 master.css  */
+.l{float: left;}
+.r{float: right;}
+.clear:after{ content: ""; display: block; clear: both;}
+.container{width: 1200px; margin: 0 auto; position: relative;}
+.container2{width: 1120px; margin: 0 auto; position: relative;}
+.container-fluid{ position: relative;}
+
+/* css text */
+#text{margin-top: 36px;}
+#text .text-list {}
+#text .text-list h4{height: 2px; width: 2px; border-left: 3px #866961 solid;margin-left: 2px; display: block;padding-top:10px ;position: absolute;top: 8px;}
+#text .text-list h3{font-weight: 400;margin-left: 13px;}
+#text .text-list h3 span{color: #d5d5d5;}
+#text .text-ul{}
+#text .text-ul p{float: left;color: #d5d5d5;}
+#text .text-ul h3{float: right;}
+#text .text-ul h2{border-bottom: 1px solid #d5d5d5;height: 31px;}
+#text .text-li{display: flex; margin-top: 24px;}
+#text .text-li img{}
+#text .text-li .text-m {margin-top: 24px; text-indent: 2em;font-size: 18px; line-height: 32px;margin-left: 36px;}
+#text .text-li .text-m p:nth-child(3){margin-top: 44px;}

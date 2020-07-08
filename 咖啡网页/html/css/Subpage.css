@@ -1,0 +1,24 @@
+/* css reset */
+*{margin: 0; padding: 0;}
+ul,li,ol{list-style: none;}
+h1,h2,h3,h4{color: black;}
+img{display: block;}
+a{text-decoration: none;}
+a{color: black;}
+h1,h2,h3,h4{font-size: 18px;}
+body{font-size: 18px;}
+
+/* 主要的 master.css  */
+.l{float: left;}
+.r{float: right;}
+.clear:after{ content: ""; display: block; clear: both;}
+.container{width: 1137px; margin: 0 auto; position: relative;}
+.container2{width: 995px; margin: 0 auto; position: relative;}
+.container-fluid{ position: relative;}
+
+ /* css text  */
+ #text{}
+ #text .text-li h1{margin-top: 32px; font-size: 24px; text-align: center; font-weight: 400;}
+ #text .text-li h3{margin-top: 42px; font-size: 16px;} 
+ #text .text-li img{margin-top: 24px;}
+ #text .text-li p{ margin-top: 25px; line-height:36px ; font-size: 15px; text-indent: 2em;}

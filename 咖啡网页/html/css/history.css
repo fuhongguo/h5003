@@ -1,0 +1,28 @@
+/* css reset */
+*{margin: 0; padding: 0;}
+ul,li,ol{list-style: none;}
+h1,h2,h3,h4{color: black;}
+img{display: block;}
+a{text-decoration: none;}
+a{color: black;}
+h1,h2,h3,h4{font-size: 18px;}
+body{font-size: 18px;}
+
+/* 主要的 master.css  */
+.l{float: left;}
+.r{float: right;}
+.clear:after{ content: ""; display: block; clear: both;}
+.container{width: 1200px; margin: 0 auto; position: relative;}
+.container2{width: 995px; margin: 0 auto; position: relative;}
+.container-fluid{ position: relative;}
+
+/* css text */
+#text{}
+#text .text-ulli{margin-top: 34px;}
+#text .text-ulli .text-li{display: flex; margin-top: 5px;}
+#text .text-ulli .text-li h2{color: #999999;}
+#text .text-ulli .text-li:hover h2{color: #866961;} 
+#text .text-ulli .text-li span{color: #999999;margin-left: 12px;}
+#text .text-ulli .text-li:hover span{color: #edded9;}
+#text .text-ulli .text-li p{width: 871px; line-height: 20px; margin-left: 23px;line-height: 60px; border-bottom: 1px solid #999999;}
+#text .text-ulli .text-li p:nth-child(1){line-height: 30px;}

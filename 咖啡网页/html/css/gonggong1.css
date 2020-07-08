@@ -1,0 +1,47 @@
+/* css reset */
+*{margin: 0; padding: 0;}
+ul,li,ol{list-style: none;}
+h1,h2,h3,h4{color: black;}
+img{display: block;}
+a{text-decoration: none;}
+a{color: black;}
+h1,h2,h3,h4{font-size: 18px;}
+body{font-size: 18px;}
+
+/* 主要的 master.css  */
+.l{float: left;}
+.r{float: right;}
+.clear:after{ content: ""; display: block; clear: both;}
+/* .container{width: 1200px; margin: 0 auto; position: relative;}
+.container2{width: 995px; margin: 0 auto; position: relative;}
+.container-fluid{ position: relative;} */
+
+/* 页头：header   */
+
+#header .header-lef{height: 100%;float: right;}
+#header .header-lef ul li{line-height: 76px;  width: 150px; text-align: center;float: right; font-size: 22px;}
+#header .header-lef .bian:hover{border-bottom: #866961 4px solid; color: #866961;}
+
+ /* css tu  */
+ #tu li{width: 1920px;margin: 0 auto}
+ 
+ /* css text */
+#text{margin-top: 36px;}
+#text .text-list {}
+#text .text-list h4{height: 2px; width: 2px; border-left: 3px #866961 solid;margin-left: 2px; display: block;padding-top:10px ;position: absolute;top: 8px;}
+#text .text-list h3{font-weight: 400;margin-left: 13px;}
+#text .text-list h3 span{color: #d5d5d5;}
+#text .text-ul{}
+#text .text-ul p{float: left;color: #d5d5d5;}
+#text .text-ul h3{float: right;}
+#text .text-ul h2{border-bottom: 1px solid #d5d5d5;height: 31px;}
+
+
+
+
+
+ /* css di  */
+ #di{background: #866961; height: 82px;margin-top: 52px;}
+ #di .di-list{display: flex;margin-left: 28px;}
+ #di .di-list p{font-size: 14px;color: white;margin-top: 38px;}
+ #di .di-list img{border: 1px #866961 solid;margin-left: 180px;}

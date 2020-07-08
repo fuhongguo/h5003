@@ -1,0 +1,31 @@
+*{margin: 0; padding: 0;}
+ul,li,ol{list-style: none;}
+h1,h2,h3,h4{color: black;}
+img{display: block;}
+a{text-decoration: none;}
+a{color: black;}
+h1,h2,h3,h4{font-size: 18px;}
+body{font-size: 18px;}
+
+/* 主要的 master.css  */
+.l{float: left;}
+.r{float: right;}
+.clear:after{ content: ""; display: block; clear: both;}
+.container{width: 1200px; margin: 0 auto; position: relative;}
+.container2{width: 995px; margin: 0 auto; position: relative;}
+.container-fluid{ position: relative;}
+
+/* html  text- */
+#text{}
+#text .text-ul p{margin-left: 16px; }
+#text .text-ul p:nth-child(1){margin-left: 0px; }
+#text .text-ulli{ margin-top: 7px;}
+#text .text-ulli .text-li{ display: flex; height: 80px; border-bottom: 1px solid #f2f2f2; padding-top: 30px;margin-left: 18px;}
+#text .text-ulli .text-li .text-h2{ width: 56px;height: 52px; border-right:1px solid #f2f2f2 ; text-align: center;}
+#text .text-ulli .text-li h2{font-size: 34px; color: #866961;} 
+#text .text-ulli .text-li p{font-size: 12px; color: #999999;} 
+#text .text-ulli .text-li h5{font-size: 14px; color: #866961;margin-left: 18px;} 
+#text .text-ulli .text-li h5:nth-child(2){font-size: 12px;color: #a3a3a3; margin-top: 22px;} 
+#text .text-ulli .text-li a{color: #866961;} 
+
+
